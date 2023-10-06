@@ -1,0 +1,932 @@
+fileFormatVersion: 2
+guid: 15cf417184b79f745b894a73140e15b1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 575
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c835203e27c6449b3cf7c94b6b9089
+      internalID: 1761248529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 575
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5b0197cf08d1540b5ca7625fe7f540
+      internalID: -1742614381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 575
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a4db905e8513845bf6bcab1deee342
+      internalID: 1120313591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 575
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea094da322c159c459e39330215a3670
+      internalID: 1462550447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 575
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4297671d30ddfc049ad5149f5e2ddc7d
+      internalID: -397257409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 575
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30db2bd8ae273f543925f9ff7ffb96c0
+      internalID: 1379603525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 460
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983135970fad4a54bafe452233b022d3
+      internalID: 1074714065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 460
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c346d47ef19d8c7438965fa0e36cbc6c
+      internalID: -779808678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 460
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9cb18f60e563341bccbbf617803e9b
+      internalID: 729418571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 460
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6aede93c9df6a41a1ca1013d5feee7
+      internalID: -40990760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 460
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254616be4d0af274ba0ae93023261fe6
+      internalID: 1797264731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 460
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61fc334ebc4fcc468f3e7b8af56a9fb
+      internalID: -986689192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 460
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0189526c49f10246860e5d728eaeb0d
+      internalID: -530216410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 460
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf35803c3a8caed43aa404f638306d4d
+      internalID: -762564093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 345
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d636ebb6013114185f13751d1bd775
+      internalID: 1725483529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 345
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7fe257b5e5a534e9c338aac6576a6e
+      internalID: 1387618296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 345
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279c98e63ccd310459b871f453c41db3
+      internalID: -1222478379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 345
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62150c120136c90488db3b592985997c
+      internalID: -527556092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 345
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a733f2ca72fc26a45a0a4d9c1b7695c1
+      internalID: 843432981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 345
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d43ee7a8268d64484251ad2ba1f448
+      internalID: 1152888811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3026dda897aef5f42b8cbacdc8f90ca3
+      internalID: -1227988504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 230
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4581d71850444d649bd1fba0ed1d6e7b
+      internalID: 169365306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 230
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfbf605262ac2e3498f9b9b3bfba4708
+      internalID: -798689497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 230
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1874007938e835c469b49b182a6ce66b
+      internalID: 1394804866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 115
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38850167a7cd204c940c0a304894449
+      internalID: -879785769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 115
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4083bc3b91022ca4a98ff4eb3dac100f
+      internalID: 1950907748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 115
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d360a559efa8e44adf9a02ec3cc18a
+      internalID: 95030980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 115
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352348b2aca3d374db2ddd774f12c99c
+      internalID: -1422162976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 115
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e334d9d25b28b04180eb897e6afffc1
+      internalID: 536774014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 115
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f0432056bf98144bbc4ec0753ba4b4
+      internalID: 1028906307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1dfa4e8ce0c0747a5d5825e354d86b
+      internalID: -1056304729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cb5baafb50b734eb3efd1261ade227
+      internalID: -555502429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f11cb766a84b9a4abe84f66779b89b4
+      internalID: -1073525526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cac95cfff1c6a47ae019a5dcda799f
+      internalID: -1080454972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ddedfa42708af458cd3af2a2b4d0de
+      internalID: 1064827401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoeHigashi-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 132
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1727f10567ae3524c80afa15cb9311a5
+      internalID: 1732953307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      JoeHigashi-Sheet_0: 1761248529
+      JoeHigashi-Sheet_1: -1742614381
+      JoeHigashi-Sheet_10: 1797264731
+      JoeHigashi-Sheet_11: -986689192
+      JoeHigashi-Sheet_12: -530216410
+      JoeHigashi-Sheet_13: -762564093
+      JoeHigashi-Sheet_14: 1725483529
+      JoeHigashi-Sheet_15: 1387618296
+      JoeHigashi-Sheet_16: -1222478379
+      JoeHigashi-Sheet_17: -527556092
+      JoeHigashi-Sheet_18: 843432981
+      JoeHigashi-Sheet_19: 1152888811
+      JoeHigashi-Sheet_2: 1120313591
+      JoeHigashi-Sheet_20: -1227988504
+      JoeHigashi-Sheet_21: 169365306
+      JoeHigashi-Sheet_22: -798689497
+      JoeHigashi-Sheet_23: 1394804866
+      JoeHigashi-Sheet_24: -879785769
+      JoeHigashi-Sheet_25: 1950907748
+      JoeHigashi-Sheet_26: 95030980
+      JoeHigashi-Sheet_27: -1422162976
+      JoeHigashi-Sheet_28: 536774014
+      JoeHigashi-Sheet_29: 1028906307
+      JoeHigashi-Sheet_3: 1462550447
+      JoeHigashi-Sheet_30: -1056304729
+      JoeHigashi-Sheet_31: -555502429
+      JoeHigashi-Sheet_32: -1073525526
+      JoeHigashi-Sheet_33: -1080454972
+      JoeHigashi-Sheet_34: 1064827401
+      JoeHigashi-Sheet_35: 1732953307
+      JoeHigashi-Sheet_4: -397257409
+      JoeHigashi-Sheet_5: 1379603525
+      JoeHigashi-Sheet_6: 1074714065
+      JoeHigashi-Sheet_7: -779808678
+      JoeHigashi-Sheet_8: 729418571
+      JoeHigashi-Sheet_9: -40990760
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
