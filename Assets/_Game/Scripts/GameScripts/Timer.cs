@@ -10,6 +10,11 @@ public class Timer : MonoBehaviour
     public Text timerText;
     public Hurtbox player1Health; // Reference to the first fighter's HealthManager
     public Hurtbox player2Health; // Reference to the second fighter's HealthManager
+<<<<<<< HEAD
+=======
+
+    public Text winner;
+>>>>>>> main
 
     private bool timerRunning = true;
 
@@ -20,7 +25,15 @@ public class Timer : MonoBehaviour
     void Start()
     {
         currentTime = totalTime;
+<<<<<<< HEAD
         winner.SetActive(false);
+=======
+<<<<<<< HEAD
+        winner.enabled = false;
+=======
+        winner.SetActive(false);
+>>>>>>> 34c3cbc19273977544a5e31845cc306936e49a9d
+>>>>>>> main
     }
 
     // Update is called once per frame
@@ -52,28 +65,60 @@ public class Timer : MonoBehaviour
         if (player1Health.currentHealth > player2Health.currentHealth || player2Health.currentHealth == 0)
         {
             // Handle win conditions for Player 1
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            winner.text = "Player 1 Wins!";
+            winner.enabled = true;
+=======
+>>>>>>> main
             winResult.text = "Player 1 Wins!";
             winner.SetActive(true);
 
             // Pause Game;
             Time.timeScale = 0;
+<<<<<<< HEAD
+=======
+>>>>>>> 34c3cbc19273977544a5e31845cc306936e49a9d
+>>>>>>> main
         }
         else if (player2Health.currentHealth > player1Health.currentHealth || player1Health.currentHealth == 0)
         {
             // Handle win conditions for Player 2
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            winner.text = "Computer 0 Wins!";
+            winner.enabled = true;
+=======
+>>>>>>> main
             winResult.text = "Computer Wins!";
             winner.SetActive(true);
 
             // Pause Game;
             Time.timeScale = 0;
+<<<<<<< HEAD
+=======
+>>>>>>> 34c3cbc19273977544a5e31845cc306936e49a9d
+>>>>>>> main
         }
         else
         {
             // Handle draw conditions
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            winner.enabled = true;
+=======
+>>>>>>> main
             winner.SetActive(true);
 
             // Pause Game;
             Time.timeScale = 0;
+<<<<<<< HEAD
+=======
+>>>>>>> 34c3cbc19273977544a5e31845cc306936e49a9d
+>>>>>>> main
         }
     }
 }
