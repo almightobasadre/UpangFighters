@@ -14,13 +14,13 @@ public class Timer : MonoBehaviour
     private bool timerRunning = true;
 
     public Text winResult;
-    public GameObject winner;
+    public GameObject winnerPanel;
 
     // Start is called before the first frame update
     void Start()
     {
         currentTime = totalTime;
-        winner.SetActive(false);
+        winnerPanel.SetActive(false);
     }
 
     // Update is called once per frame
@@ -53,7 +53,7 @@ public class Timer : MonoBehaviour
         {
             // Handle win conditions for Player 1
             winResult.text = "Player 1 Wins!";
-            winner.SetActive(true);
+            winnerPanel.SetActive(true);
 
             // Pause Game;
             Time.timeScale = 0;
@@ -62,7 +62,7 @@ public class Timer : MonoBehaviour
         {
             // Handle win conditions for Player 2
             winResult.text = "Computer Wins!";
-            winner.SetActive(true);
+            winnerPanel.SetActive(true);
 
             // Pause Game;
             Time.timeScale = 0;
@@ -70,7 +70,7 @@ public class Timer : MonoBehaviour
         else
         {
             // Handle draw conditions
-            winner.SetActive(true);
+            winnerPanel.SetActive(true);
 
             // Pause Game;
             Time.timeScale = 0;

@@ -424,7 +424,7 @@ MonoBehaviour:
   player1Health: {fileID: 1466031032}
   player2Health: {fileID: 704335550}
   winResult: {fileID: 737751081}
-  winner: {fileID: 737751079}
+  winnerPanel: {fileID: 737751079}
 --- !u!4 &199611130
 Transform:
   m_ObjectHideFlags: 0
