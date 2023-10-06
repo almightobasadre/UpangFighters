@@ -342,8 +342,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 593785174}
-        m_TargetAssemblyTypeName: settingsScene, Assembly-CSharp
-        m_MethodName: settings
+        m_TargetAssemblyTypeName: SettingsScene, Assembly-CSharp
+        m_MethodName: Settings
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -629,8 +629,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 901871691}
-        m_TargetAssemblyTypeName: settingsScene, Assembly-CSharp
-        m_MethodName: singlePlayer
+        m_TargetAssemblyTypeName: SettingsScene, Assembly-CSharp
+        m_MethodName: SinglePlayer
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -736,7 +736,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000076294, y: 260}
+  m_AnchoredPosition: {x: -0, y: 260}
   m_SizeDelta: {x: 1071.8027, y: 231.8377}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &972770012
@@ -1349,11 +1349,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1879195747}
+  - {fileID: 972770011}
+  - {fileID: 901871687}
   - {fileID: 2054982110}
   - {fileID: 2013258867}
   - {fileID: 593785170}
-  - {fileID: 972770011}
-  - {fileID: 901871687}
   - {fileID: 859964797}
   m_Father: {fileID: 643452182}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1398,8 +1398,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eea7db60bb267d4d92aff57ab5f4cd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  src: {fileID: 0}
-  sfx1: {fileID: 0}
+  src: {fileID: 1404870929}
+  sfx1: {fileID: 8300000, guid: e0916b98fc91f6049bf545401687447d, type: 3}
 --- !u!1 &1879195746
 GameObject:
   m_ObjectHideFlags: 0
@@ -1412,7 +1412,7 @@ GameObject:
   - component: {fileID: 1879195749}
   - component: {fileID: 1879195748}
   m_Layer: 5
-  m_Name: background
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1807,7 +1807,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2054982112}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1843528674}
+        m_TargetAssemblyTypeName: SettingsScene, Assembly-CSharp
+        m_MethodName: Arcade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2054982112
 MonoBehaviour:
   m_ObjectHideFlags: 0

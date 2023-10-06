@@ -3,15 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class settingsScene : MonoBehaviour
+public class SettingsScene : MonoBehaviour
 {
-    public void settings()
+    public void Settings()
     {
         SceneManager.LoadScene("Settings");
     }
-    public void singlePlayer()
+    public void SinglePlayer()
      {
-        SceneManager.LoadScene("GamePlay");
+        SceneManager.LoadScene("SinglePlayer");
+    }
+    public void Arcade()
+    {
+        SceneManager.LoadScene("ArcadeScene");
     }
     public void Practice()
     {
@@ -19,10 +23,10 @@ public class settingsScene : MonoBehaviour
     }
     public void BackInPractice()
     {
-        SceneManager.LoadScene("Scene01");
+        SceneManager.LoadScene("MainMenu");
     }
      public void BackinMenu()
     {
-        SceneManager.LoadScene("Scene01");
+        SceneManager.LoadScene("MainMenu");
     }
 }
