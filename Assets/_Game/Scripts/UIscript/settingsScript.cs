@@ -9,4 +9,20 @@ public class settingsScene : MonoBehaviour
     {
         SceneManager.LoadScene("Settings");
     }
+    public void singlePlayer()
+     {
+        SceneManager.LoadScene("GamePlay");
+    }
+    public void Practice()
+    {
+        SceneManager.LoadScene("PracticeScene");
+    }
+    public void BackInPractice()
+    {
+        SceneManager.LoadScene("Scene01");
+    }
+     public void BackinMenu()
+    {
+        SceneManager.LoadScene("Scene01");
+    }
 }

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/SoundEffectsPlayer.cs.meta
+guid: 3eea7db60bb267d4d92aff57ab5f4cd3
+========
+guid: 7f81ca809d4012d45a5b70dad01f4399
+>>>>>>>> main:Assets/_Game/Scripts/GameScripts/Hitbox.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
