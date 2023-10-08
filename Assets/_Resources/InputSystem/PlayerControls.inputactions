@@ -1,5 +1,5 @@
 {
-    "name": "Player1Controls",
+    "name": "PlayerControls",
     "maps": [
         {
             "name": "Player",
@@ -27,6 +27,15 @@
                     "name": "Kick",
                     "type": "Button",
                     "id": "6fe220c7-d872-422e-ba75-143b83ca4869",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PunchF",
+                    "type": "Button",
+                    "id": "d415a97b-c865-4419-815e-d2925d8b4826",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -135,6 +144,17 @@
                 },
                 {
                     "name": "",
+                    "id": "aaaf2c91-5ef6-44ba-94e8-5f748ad9a9de",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Punch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "c58b15be-19af-4219-a811-c93267d9fbd7",
                     "path": "<Touchscreen>/primaryTouch/tap",
                     "interactions": "",
@@ -152,6 +172,39 @@
                     "processors": "",
                     "groups": "Keyboard (1)",
                     "action": "Kick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c35bd25f-3530-4f20-865c-d98df64bc3e8",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Kick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8b51ed5d-1e14-4eb3-aedc-1d7db670deed",
+                    "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PunchF",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "af1b9494-b850-479e-b82d-a7c34a62c19d",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PunchF",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
