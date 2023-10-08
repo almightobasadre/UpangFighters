@@ -22,7 +22,9 @@ public class PlayerController : MonoBehaviour
     private float dashCooldown = 1f;
     private bool isDashing = false;
 
-    private float animDuration;
+    private float animTime;
+    private bool isAttacking;
+    private Coroutine animationCoroutine;
 
     public int isMoving
     {
@@ -92,6 +94,48 @@ public class PlayerController : MonoBehaviour
     public void OnPunch(InputAction.CallbackContext context)
     {
         animator.SetBool("PunchLight", true);
+        animTime = 0.5f;
+        StartCoroutine(WaitPunchLAnim());
     }
 
+    private IEnumerator WaitPunchLAnim()
+    {
+        yield return new WaitForSeconds(animTime);
+        animator.SetBool("PunchLight", false);
+        animationCoroutine = null; // Reset the coroutine reference
+    }
+
+    public void OnKick(InputAction.CallbackContext context)
+    {
+        animator.SetBool("KickForward", true);
+        animTime = 0.65f;
+        StartCoroutine(WaitKickFAnim());
+    }
+
+    private IEnumerator WaitKickFAnim()
+    {
+        yield return new WaitForSeconds(animTime);
+        animator.SetBool("KickForward", false);
+        animationCoroutine = null; // Reset the coroutine reference
+    }
+
+    public void OnPunchF(InputAction.CallbackContext context)
+    {
+        // Check if both "D" and "T" keys are pressed simultaneously.
+        if (Keyboard.current.dKey.isPressed && Keyboard.current.tKey.isPressed)
+        {
+            // Uppercut punch logic here
+            Debug.Log("Uppercut punch performed!");
+            animator.SetBool("PunchForward", true);
+            animTime = 0.6666666f;
+            StartCoroutine(WaitPunchFAnim());
+        }
+    }
+
+    private IEnumerator WaitPunchFAnim()
+    {
+        yield return new WaitForSeconds(animTime);
+        animator.SetBool("PunchForward", false);
+        animationCoroutine = null; // Reset the coroutine reference
+    }
 }
