@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using static CharacterController;
+using static CharController;
 
 public class Hurtbox : MonoBehaviour
 {
@@ -41,11 +41,12 @@ public class Hurtbox : MonoBehaviour
 
         animator.SetTrigger("Hurt");
 
-        /*if (currentHealth <= 0)
+        if (currentHealth <= 0)
         {
             // Pause Game;
             Time.timeScale = 0;
             Debug.Log(characterType + " Knocked Out");
-        }*/
+        }
     }
+
 }
