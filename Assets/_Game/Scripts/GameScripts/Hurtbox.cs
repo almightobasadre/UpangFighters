@@ -12,6 +12,9 @@ public class Hurtbox : MonoBehaviour
     public Image healthBar;
 
     private Animator animator;
+    private AudioSource audioSource;
+
+    public AudioClip punchSFX;
 
     public enum CharacterType
     {
@@ -21,12 +24,17 @@ public class Hurtbox : MonoBehaviour
 
     public CharacterType characterType;
 
+
     // Start is called before the first frame update
     private void Start()
     {
         currentHealth = maxHealth;
         // Get the Animator component from the parent GameObject
         animator = transform.parent.GetComponent<Animator>();
+        // Add an AudioSource component to this GameObject
+        audioSource = gameObject.AddComponent<AudioSource>();
+        // Set the punch sound effect as the AudioClip for this AudioSource
+        audioSource.clip = punchSFX;
     }
 
     public void TakeDamage(int damage)
@@ -46,6 +54,12 @@ public class Hurtbox : MonoBehaviour
             // Pause Game;
             Time.timeScale = 0;
             Debug.Log(characterType + " Knocked Out");
+        }
+
+        // Play the punch sound effect
+        if (audioSource != null && punchSFX != null)
+        {
+            audioSource.Play();
         }
     }
 
