@@ -12,6 +12,7 @@ public class CharController : MonoBehaviour
     public GameObject hitboxPunchLight; // Reference to the Hitbox GameObject
     public GameObject hitboxKickF;
 
+
     // Start is called before the first frame update
     private void Start()
     {

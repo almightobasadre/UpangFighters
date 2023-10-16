@@ -49,7 +49,7 @@ public class Timer : MonoBehaviour
 
     void DetermineWinner()
     {
-        if (player1Health.currentHealth >= player2Health.currentHealth || player2Health.currentHealth <= 0.1)
+        if (player2Health.currentHealth <= 0.1)
         {
             // Handle win conditions for Player 1
             winResult.text = "Player 1 Wins!";
@@ -58,7 +58,7 @@ public class Timer : MonoBehaviour
             // Pause Game;
             Time.timeScale = 0;
         }
-        else if (player2Health.currentHealth >= player1Health.currentHealth || player1Health.currentHealth <= 0.1)
+        else if (player1Health.currentHealth <= 0.1)
         {
             // Handle win conditions for Player 2
             winResult.text = "Player 2 Wins!";
