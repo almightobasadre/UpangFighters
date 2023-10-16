@@ -24,7 +24,6 @@ public class Hitbox : MonoBehaviour
         Hurtbox hurtbox = other.GetComponent<Hurtbox>();
         if (hurtbox != null)
         {
-            Debug.Log("Hit");
             // Deal damage to the opponent's health
             hurtbox.TakeDamage(damage);
         }

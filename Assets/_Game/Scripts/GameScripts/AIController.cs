@@ -25,14 +25,14 @@ public class AIController : MonoBehaviour
     private float animTime;
 
     // Animation States
-    const string IDLE = "Idle";
-    const string WALKFORWARD = "WalkForward";
-    const string WALKBACKWARD = "WalkBackward";
-    const string DASH = "Dash";
-    const string PUNCHLIGHT = "PunchLight";
-    const string PUNCHHEAVY = "PunchHeavy";
-    const string KICKHEAVY = "KickHeavy";
-    const string JUMP = "Jump";
+    const string IDLE = "T00_Idle";
+    const string WALKFORWARD = "T01a_WalkF";
+    const string WALKBACKWARD = "T01b_WalkB";
+    const string DASH = "T02_Dash";
+    const string PUNCHLIGHT = "T04a_PunchLight";
+    const string PUNCHHEAVY = "T04b_PunchHeavy";
+    const string KICKHEAVY = "T05c_KickF";
+    const string JUMP = "T03_Jump";
 
     // Start is called before the first frame update
     void Start()

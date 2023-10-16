@@ -20,7 +20,7 @@ public class BossRun : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        Vector2 target = new Vector2(player.position.x, player.position.y);
+        Vector2 target = new Vector2(player.position.x, 0);
         Vector2 newPos = Vector2.MoveTowards(rb.position, target, moveSpeed * Time.deltaTime);
         rb.MovePosition(newPos);
         animator.SetBool("Move", true);

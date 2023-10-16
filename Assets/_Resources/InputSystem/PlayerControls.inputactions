@@ -148,7 +148,7 @@
                     "path": "<Gamepad>/buttonWest",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Gamepad",
                     "action": "Punch",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -170,7 +170,7 @@
                     "path": "<Keyboard>/y",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Keyboard (1)",
+                    "groups": "Keyboard (1);Gamepad",
                     "action": "Kick",
                     "isComposite": false,
                     "isPartOfComposite": false

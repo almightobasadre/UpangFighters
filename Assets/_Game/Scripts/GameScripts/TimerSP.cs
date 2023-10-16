@@ -1,15 +1,16 @@
+using FishNet.Managing.Timing;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Timer : MonoBehaviour
+public class TimerSP : MonoBehaviour
 {
     public float totalTime = 60f; // Total time in seconds
     private float currentTime;
     public Text timerText;
     public Hurtbox player1Health; // Reference to the first fighter's HealthManager
-    public Hurtbox player2Health; // Reference to the second fighter's HealthManager
+    public Hurtbox computer;
 
     private bool timerRunning = true;
 
@@ -28,9 +29,9 @@ public class Timer : MonoBehaviour
     {
         if (player1Health.currentHealth <= 0)
         {
-            SetWinner("Player 2 Wins!");
+            SetWinner("Computer 0 Wins!");
         }
-        else if (player2Health.currentHealth <= 0)
+        else if (computer.currentHealth <= 0)
         {
             SetWinner("Player 1 Wins!");
         }
@@ -65,7 +66,7 @@ public class Timer : MonoBehaviour
 
     void DetermineWinner()
     {
-        if (player1Health.currentHealth >= player2Health.currentHealth)
+        if (player1Health.currentHealth >= computer.currentHealth)
         {
             // Handle win conditions for Player 1
             winResult.text = "Player 1 Wins!";
@@ -74,10 +75,10 @@ public class Timer : MonoBehaviour
             // Pause Game;
             Time.timeScale = 0;
         }
-        else if (player2Health.currentHealth >= player1Health.currentHealth)
+        else if (computer.currentHealth >= player1Health.currentHealth)
         {
             // Handle win conditions for Player 2
-            winResult.text = "Player 2 Wins!";
+            winResult.text = "Computer 0 Wins!";
             winnerPanel.SetActive(true);
 
             // Pause Game;

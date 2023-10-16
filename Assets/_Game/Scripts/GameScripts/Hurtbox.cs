@@ -18,8 +18,10 @@ public class Hurtbox : MonoBehaviour
 
     public enum CharacterType
     {
-        Player,
-        Computer
+        Player1,
+        Player2,
+        Computer,
+        Dummy
     }
 
     public CharacterType characterType;
@@ -49,17 +51,20 @@ public class Hurtbox : MonoBehaviour
 
         animator.SetTrigger("Hurt");
 
-        if (currentHealth <= 0)
-        {
-            // Pause Game;
-            Time.timeScale = 0;
-            Debug.Log(characterType + " Knocked Out");
-        }
-
         // Play the punch sound effect
         if (audioSource != null && punchSFX != null)
         {
             audioSource.Play();
+        }
+
+        if (CharacterType.Dummy == characterType)
+        {
+            return;
+        }
+        else if (currentHealth <= 0)
+        {
+            // Pause Game;
+            Time.timeScale = 0;
         }
     }
 
