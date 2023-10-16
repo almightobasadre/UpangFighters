@@ -10,12 +10,14 @@ public class Hurtbox : MonoBehaviour
     public int currentHealth;
 
     public Image healthBar;
+    public Text winText;
 
     private Animator animator;
 
     public enum CharacterType
     {
-        Player,
+        Player1,
+        Player2,
         Computer
     }
 
@@ -40,13 +42,6 @@ public class Hurtbox : MonoBehaviour
         healthBar.fillAmount = fillAmount;
 
         animator.SetTrigger("Hurt");
-
-        if (currentHealth <= 0)
-        {
-            // Pause Game;
-            Time.timeScale = 0;
-            Debug.Log(characterType + " Knocked Out");
-        }
     }
 
 }

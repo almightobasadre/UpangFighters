@@ -55,7 +55,7 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "1D Axis",
+                    "name": "Keyboard",
                     "id": "7eede46f-859f-466e-bde2-0059dc008005",
                     "path": "1DAxis",
                     "interactions": "",
@@ -88,7 +88,7 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "1D Axis",
+                    "name": "Gamepad",
                     "id": "5f29d1fc-eeba-401f-9958-5e23f5774fc3",
                     "path": "1DAxis",
                     "interactions": "",
@@ -148,7 +148,7 @@
                     "path": "<Gamepad>/buttonWest",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Gamepad",
                     "action": "Punch",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -181,7 +181,7 @@
                     "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Gamepad",
                     "action": "Kick",
                     "isComposite": false,
                     "isPartOfComposite": false
