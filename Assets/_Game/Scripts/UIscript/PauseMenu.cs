@@ -1,14 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    public GameObject pauseMenu;
+    public GameObject menu;
     public bool isPause;
     void Start()
     {
-        pauseMenu.SetActive(false);
+        menu.SetActive(false);
     }
     void Update() 
     { 
@@ -26,14 +27,21 @@ public class PauseMenu : MonoBehaviour
     }
     public void ResumeGame()
     {
-        pauseMenu.SetActive(false);
+        menu.SetActive(false);
         Time.timeScale = 1f;
         isPause = false;
     }
     public void PauseGame()
     {
-        pauseMenu.SetActive(true);
+        menu.SetActive(true);
         Time.timeScale = 0f;
         isPause = true;
+    }
+
+    public void RestartGame()
+    {
+        menu.SetActive(false);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 1f;
     }
 }
